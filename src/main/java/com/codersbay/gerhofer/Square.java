@@ -25,15 +25,4 @@ public class Square extends Rectangle {
         super.setLength(length);
     }
 
-    @Override
-    public double getArea() {
-        double area = Math.pow(this.getLength(), 2);
-        return area;
-    }
-
-    @Override
-    public double getPerimeter() {
-        double perimeter = 4 * this.getLength();
-        return perimeter;
-    }
 }
